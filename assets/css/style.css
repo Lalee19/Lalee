@@ -1,0 +1,849 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.as-boja1{
+    background-color: #DCDCDC	;
+}
+
+
+.as-boja2{
+    background-color:#FAF9F6;
+}
+
+.as-boja3{
+    color: #0E0E10;
+}
+
+.formaBojaTrue{
+    color: 	#008000;
+    font-size: 20px;
+
+}
+
+.formaBorduraTrue{
+    border: 2px solid #008000;
+}
+
+.formaBorduraFalse{
+    border: 2px solid #ff0000;
+}
+
+.formaBojaFalse{
+    color: #ff0000;
+    font-size: 20px;
+
+}
+
+.okvir{
+    text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, 
+                         1px -1px 0 #000, 
+                        -1px -1px 0 #000; 
+}
+
+#popustiZag{
+    width: 100%;
+    height: 30px;
+}
+
+
+#popustiZag p{
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+/* =======> MODAL <======= */
+
+
+/* ==========>  NAVIGACIJA <========= */
+#navig{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20px 1fr 10px 70px 10px 1fr 20px;
+    grid-template-rows: 10px 1fr 10px;
+    background-color: #FAF9F6;
+    border-bottom: 1px solid #0E0E10;
+}
+
+
+
+
+
+
+/* ==========>  NAVIGACIJA LEVO <========= */
+nav{
+    width: 70%;
+    grid-area:2/2/3/3;
+    height: 90px;
+    padding-top: 30px;
+   
+
+}
+
+nav ul{
+    list-style-type: none;
+    
+    
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0E0E10;
+}
+
+.underline{
+   border-bottom: 2px solid #0E0E10;
+}
+
+
+
+
+
+
+/* ==========>  IKONICA SREDINA <========= */
+#ikonica{
+    grid-area:1/3/4/6;
+}
+
+#ikonica img{
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* ==========>  NAVIGACIJA DESNO <========= */
+#nav2{
+    grid-area: 2/6/3/7;
+    width: 70%;
+    margin-left: 30%;
+    height: 90px;
+    padding-top: 30px;
+}
+
+#nav2 ul{
+    list-style-type: none;
+    margin-left: 180px;
+    
+}
+
+#nav2 ul li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#nav2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0E0E10;
+}
+
+
+
+/* ======= >> FORMA ZA LOGOVANJE << ======= */
+
+#formaLogovanja{
+    position: absolute;
+    width: 20%;
+    background-color: #FAF9F6;
+    left: 79.5%;
+    top: 110px;
+    text-align: center;
+    border: 2px solid #0E0E10;
+    display: none;
+}
+
+#formaLogovanja h2{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#formaLogovanja span{
+    font-size: 20px;
+}
+
+
+#forma2 input[type=text], #forma2 input[type=password]{
+    width: 70%;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#bLog{
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 2px 25px;
+    background-color: #0E0E10;
+    color: #DCDCDC;
+   
+}
+
+#nemaACC{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 2px 25px;
+    background-color: #0E0E10;
+    color: #DCDCDC;
+   
+    
+}
+
+
+/* ========>> BURGER <<======== */
+
+#burger{
+    position: relative;
+    display: none;
+}
+
+#navBurg{
+    display: none;
+    width: 300%;
+    position: absolute;
+    background-color: #FAF9F6;
+    right: 1px;
+    top: 90px;
+
+}
+
+#navBurg ul{
+    width: 100%;
+    padding-left: 0px;
+    
+}
+
+#navBurg ul li{
+    margin: 5px;
+    list-style-type: none;
+}
+
+#navBurg ul li a{
+    text-decoration: none;
+    color:#0E0E10;
+    font-size: 20px;
+}
+
+
+/* ========> MAIN DEO <============ */
+main{
+    width: 100%;
+    height: 3150px;
+    background-color:#FAF9F6;
+}
+
+
+
+
+
+
+
+/* ========> VELIKA SLIKA <========== */
+#dveSlike{
+    width: 100%;
+    height: 700px;
+  
+    text-align: center;
+    padding-top: 480px;
+    color: #FAF9F6;
+    background-image: url("../slike/bg2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#dveSlike h1{
+    margin-bottom: 25px;
+}
+
+#b1{
+    
+    padding: 7px 40px;
+    background-color: #FAF9F6;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0E0E10;
+}
+
+#b1:hover{
+    background-color:#0E0E10;
+    color: #FAF9F6;
+}
+
+
+
+
+
+
+
+/* =======> 2 SLIKE<=========*/
+
+#manWoman{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.mW{
+    width: 37%;
+    height: 88%;
+    margin-top: 50px;
+    
+
+}
+
+
+.mW-slika{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 80% 50px 1fr;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+#mW-s1{
+    background-image: url("../slike/mWmajce.jpg");
+}
+
+#mW-s2{
+    background-image: url("../slike/mWkaputi.jpg");
+}
+
+.tamno{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0,7);
+}
+
+.mW-tekst{
+    text-align: center;
+}
+
+.mW-tekst h1{
+    font-size: 30px;
+}
+
+.mW-tekst h2{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.mW-tekst p{
+    font-size: 20px;
+}
+
+.dugme{
+    grid-row-start:2;
+    grid-row-end:3;
+    
+}
+
+.b2{
+    padding: 7px 30px;
+    background-color: #FAF9F6;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0E0E10;
+    
+    
+}
+
+
+
+
+
+/* =========> SLAJDER <========= */
+
+#slajder{
+    width: 100%;
+    height:700px;
+    background-color:#DCDCDC;
+    display: grid;
+    grid-template-columns: 7% 5% 5% 1fr 5% 5% 7%;
+    grid-template-rows: 12% 28% 20% 28% 12%;
+}
+
+.fa-chevron-left{
+    grid-area: 3/2/4/3;
+    font-size: 50px;
+    margin-top: 45px;
+    color: #0E0E10;
+    
+}
+
+.fa-chevron-right{
+    grid-area: 3/6/4/7;
+    font-size: 50px;
+    margin-top: 45px;
+    margin-left: 50px;
+    color: #0E0E10;
+}
+
+#slajderSlika{
+    position: relative;
+    grid-area: 2/4/5/5;
+    background-color: #DCDCDC;
+    display: grid;
+    grid-template-rows: 70% 10% 3% 10% 7%;
+    grid-template-columns: 15% 70% 15%;
+    text-align: center;
+}
+
+#slajderSlika img{
+    grid-area: 1/1/6/4;
+    width: 100%;
+    height: 100%;
+}
+
+
+#tekstSlajd{
+    grid-area: 2/2/5/3;
+}
+
+#slajderSlika h2{
+    color: #0E0E10;
+    background-color: rgba(250,249,246,0.7);
+}
+
+#slajderSlika p{
+    color: #0E0E10;
+    background-color: rgba(250,249,246,0.7);
+    font-size: 20px;
+}
+
+
+
+/* ======> TRI SLIKE  <======= */
+
+
+#naslovTriSlike{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#triSlike{
+
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.slikeTri{
+    width: 25%;
+    height: 85%;
+    margin-top: 50px;
+   display: grid;
+   grid-template-rows: 80% 7% 13%;
+   grid-template-columns: 15px 1fr 15px;
+}
+
+.slikeTri img{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#triSlike_Slika1,#triSlike_Slika2, #triSlike_Slika3{
+    grid-area: 1/1/2/4;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid #0E0E10;
+   
+}
+
+
+
+.slikeTri h2{
+    grid-area: 2/2/3/3;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.slikeTri p{
+    grid-area: 3/2/4/3;
+    font-size: 20px;
+}
+
+
+
+
+
+/* =======> FOOTER <======== */
+
+footer{
+    padding-top: 50px;
+    width: 100%;
+    height: 360px;
+    background-color: #DCDCDC;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#footerAplikacije , #footerInfo , #footerNav{
+    
+    width: 33%;
+    height: 90%;
+    grid-template-columns:40px 1fr 40px ;
+    grid-template-rows: 50px 30px 1fr 30px;
+    text-align: center;
+    
+}
+
+
+
+footer h2{
+    font-size: 25px;
+}
+
+footer h3{
+    font-size: 30px;
+}
+#contact p,#fnav p{
+    font-size: 25px;
+}
+
+#lista_app li, #fnav li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
+
+#lista_app a,#fnav a{
+    text-decoration: none;
+    color: #0E0E10;
+    font-size: 25px;
+}
+
+#lista_app a:hover,#fnav a:hover{
+
+    color:#FAF9F6;
+}
+
+
+
+
+
+
+
+
+/* ======>> STRANICA MAN's <<======== */
+
+
+#mainMen{
+    width: 100%;
+
+}
+
+#slikaMen{
+    width: 100%;
+    height: 700px;
+    
+    background-image: url("../slike/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#katalogMen{
+    width: 100%;
+   
+}
+
+#katalogNaslov{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #FAF9F6;
+}
+
+#katalogStvari,#katalogStvari2{
+    width: 100%;
+    height: 1300px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FAF9F6;
+
+}
+
+.katalogStvar,.katalogSale{
+    width: 22%;
+    height: 600px;;
+    display: grid;
+    grid-template-columns: 15px 1fr 15px;
+    grid-template-rows: 80% 7% 13%;
+    background-color:#DCDCDC;
+
+}
+
+.katalogStvar img,.katalogSale img{
+    width: 100%;
+    height: 100%;
+    grid-area: 1/1/2/4;
+    border: 2px solid #0E0E10;
+}
+
+
+
+.katalogStvar h2, .katalogSale h2{
+    text-align: center;
+    grid-area: 2/2/3/3;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.katalogStvar p,.katalogSale p{
+    grid-area: 3/2/4/3;
+    font-size: 17px;
+}
+
+
+
+#katalogDugme,#katalogDugme2{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #FAF9F6;
+}
+
+#sub1,#sub2{
+    padding: 10px 45px;
+    background-color: #0E0E10;
+    color: #FAF9F6;
+}
+
+#sub1:hover,#sub2:hover{
+    background-color: #FAF9F6;
+    color: #0E0E10;
+}
+
+/* =======> MODAL NA STRANICI MEN <======= */
+
+.stavkaKat{ 
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 150px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  .klasaZaModal{
+    display: block !important;
+  }
+  
+
+  .stavka-kontent{
+
+    background-color: #FFFFFF;
+    margin: auto;
+    border: 1px solid #0E0E10;
+    height: 620px;
+    width: 23%;
+    display: grid;
+    grid-template-rows:73% 2% 6% 19% ;
+    grid-template-columns:20px 1fr 20px ;
+  }
+
+  .stavka-kontent img{
+    width: 100%;
+    height: 100%;
+    grid-area: 1/1/2/4;
+    background-color: black;
+  }
+
+  .stavka-kontent h2{
+    grid-area: 3/2/4/3;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .stavka-kontent p{
+    grid-area: 4/2/5/3;
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+/*========>> STRANICA SALE <<========*/
+
+#mainSale{
+    width: 100%;
+    background-color:#FAF9F6;
+}
+
+
+#slikaSale{
+    width: 100%;
+    height: 700px;
+   
+    background-image: url("../slike/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#saleNaslov{
+    width: 100%;
+    text-align: center;
+}
+
+#saleNaslov h1{
+    padding: 25px 0px;
+}
+
+#katalogSale_id{
+    width: 100%;
+    height: 2000px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.precrtano{
+    text-decoration:line-through;
+}
+
+.novacena{
+    color: #ff0000;
+}
+
+
+
+/* ========> STRANICA FORMA <======= */
+
+#mainRegistracija{
+    width: 100%;
+    background-color: #DCDCDC;
+    padding: 100px 0px;
+}
+
+#formaZaRegistraciju{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+#formaZaRegistraciju h1{
+    padding-bottom: 15px;
+}
+
+#formaZaRegistraciju p{
+    text-align: left;
+    font-size: 20px;
+}
+
+#form1 input[type=text], #form1 input[type=email],#form1 input[type=password],#form1 [type=submit],#ddl1{
+
+    font-size: 22px;
+}
+
+#footerReg{
+    background-color: #FAF9F6 !important;
+}
+
+#footerReg a:hover{
+    color: #DCDCDC !important;
+}
+
+#form1 input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+   margin-right:130px;  
+}
+
+#lcb1{
+    margin-right: 120px;
+    font-size: 20px;
+}
+
+.cbSpan{
+    font-size: 18px;
+}
+
+
+
+
+
+/* =======> STRANICA O AUTORU  <=======*/
+
+#mainAutor{
+    width: 100%;
+    height: 800px;
+    padding-top: 5%;
+    
+}
+
+#autorInfo{
+    width: 40%;
+    height: 90%;
+    margin: 0px auto;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-rows: 80% 20%;
+}
+
+#auSlika{
+    grid-area: 1/1/2/4;
+}
+
+#auTekst{
+    grid-area:2/2/3/3 ;
+    background-color: #DCDCDC;
+}
+
+#auSlika img{
+    width: 65%;
+    height: 100%;
+}
+
+
+
+/* ====>>> MENAJNJE KURSORA NA HOVER <<<==== */
+
+
+.pointer{
+    cursor: pointer;
+}
