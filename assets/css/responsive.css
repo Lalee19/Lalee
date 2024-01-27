@@ -49,7 +49,10 @@
     }
 
     /*STRANICA MEN*/
-
+    #mainMen{
+       
+    }
+    
     #slikaMen{
         height: 500px;
         background-image: url("../slike/bg3.jpg");
