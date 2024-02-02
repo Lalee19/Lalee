@@ -304,7 +304,7 @@ const navBurger =[
 
     {ime:'HOME',putanja:'../../index.html'},
     {ime:'WOMEN',putanja:'#'},
-    {ime:'SALE',putanja:'#'},
+    {ime:'MEN',putanja:'men.html'},
     {ime:'Account',putanja:'registration.html'},
     {ime:'Autor',putanja:'autor.html'}
 
@@ -397,9 +397,8 @@ function dinamickoIsAplikacija(){
 
 
 const footernav = [
-    {ime:'MEN',putanja:'mans.html'},
+    {ime:'MEN',putanja:'men.html'},
     {ime:'WOMEN',putanja:'../../index.html'},
-    {ime:'SALE',putanja:'#'},
     {ime:'Account',putanja:'registration.html'},
     {ime:'Author',putanja:'autor.html'},
     {ime:"Sitemap",putanja:"../../sitemap.xml"},

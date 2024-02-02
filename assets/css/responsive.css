@@ -1,0 +1,654 @@
+@media  only screen and (max-width:1441px){
+
+    #nav2{
+        width: 95%;
+        margin-left: 5%;
+    }
+
+    /*STRANICA MEN*/
+
+    .stavka-kontent{
+
+        height: 700px;
+        width: 33%;
+    
+      }
+
+    /* FORMA ZA LOGOVANJE */
+
+    #formaLogovanja{
+        width: 25%;
+        left: 74.5%;
+    }
+}
+
+@media only screen and (max-width:1367px){
+    
+    #nav2 ul{
+        margin-left: 140px;
+    }
+}
+
+
+@media only screen and (max-width:1281px){
+
+
+    #nav2 ul{
+        margin-left: 100px;
+    }
+
+    #slajder{
+    
+        grid-template-columns: 2% 4% 1% 1fr 1% 4% 2%;
+    
+    }
+
+    .fa-chevron-right{
+        margin-left: 20px;
+        
+    }
+
+    /*STRANICA MEN*/
+    
+    #slikaMen{
+        height: 500px;
+        background-image: url("../slike/bg3.jpg");
+    }
+
+    #katalogStvari,#katalogStvari2{
+        flex-wrap: wrap;
+        height: 2600px;
+    
+    }
+    
+    .katalogStvar{
+        width: 40%;
+        height: 22%;
+    }
+
+
+    /*STRANICA SALE*/
+
+    #slikaSale{
+        height: 500px;
+        background-image: url('../slike/bg3.jpg');
+    }
+
+    #katalogSale_id{
+        height: 4000px;
+    }
+
+    .katalogSale{
+        width: 40%;
+        height: 15%;
+    }
+
+    /*STRANICA SA FORMOM*/
+
+    #formaZaRegistraciju{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+
+    /*STRANICA AUTOR*/
+
+    #autorInfo{
+
+        width: 60%;
+    }
+
+    #auSlika img{
+        width: 70%;
+
+    }
+
+     /* FORMA ZA LOGOVANJE */
+
+     #formaLogovanja{
+        
+        left: 72.5%;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:1025px){
+
+    
+    #nav2{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #nav2 ul{
+        margin-left: 50px;
+    }
+
+    #nav2 ul li{
+        margin-left: 30px;
+    }
+
+    nav ul li{
+        margin-right: 30px;
+
+    }
+
+    main{
+        height: 3050px;
+    }
+
+    .mW{
+        width: 45%;
+    }
+
+    .fa-chevron-right{
+        margin-left: 10px;
+        
+    }
+
+    #tekstSlajd h2{
+        font-size: 28px;
+    }
+
+    #tekstSlajd p{
+        font-size: 18px;
+    }
+
+    #triSlike{
+        height: 650px;
+    }
+
+    footer h2{
+        font-size: 22px;
+    }
+
+    footer h3{
+        font-size: 22px;
+    }
+
+    #contact p{
+        font-size: 20px;
+    }
+
+    #footerAplikacije ul li a{
+        font-size: 20px;
+    }
+
+    #footerNav ul li a{
+        font-size: 20px;
+    }
+
+    footer{
+        height: 300px;
+    }
+
+
+    /*STRANICA MEN*/
+
+    .stavka-kontent{
+
+        height: 700px;
+        width: 37%;
+    
+      }
+
+      /* FORMA ZA LOGOVANJE */
+
+     #formaLogovanja{
+        width: 35%;
+        left: 64%;
+    }
+
+   
+}
+
+@media only screen and (max-width:801px){
+
+    nav{
+        width: 100%;
+    }
+
+    nav ul{
+        margin-left: 1.5rem;
+    }
+
+    nav ul li{
+        margin-right: 20px;
+    }
+
+    nav ul li a{
+        font-size: 18px;
+    }
+
+    #nav2 ul{
+        margin-left: 20px;
+    }
+    
+    #nav2 ul li{
+        margin-left: 20px;
+    }
+
+    #nav2 ul li a{
+
+        font-size: 18px;
+    }
+
+  
+    
+    main{
+        height: 2450px;
+    }
+
+    #dveSlike{
+        height: 500px;
+        padding-top: 320px;
+    }
+
+    #manWoman{
+        height: 650px;
+    }
+
+    .mW{
+        height: 95%;
+    }
+    
+    .mW h2{
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+
+    .mW h1{
+        font-size: 21px;
+    }
+
+    .mW p{
+        font-size: 18px;
+    }
+
+    .b2{
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+
+
+    .fa-chevron-right,.fa-chevron-left{
+        display: none;
+    }
+
+    #slajderSlika{
+        grid-area: 2/2/5/7;
+    }
+
+    #triSlike{
+        height: 500px;
+
+    }
+
+    #triSlike > :last-child{
+        display: none;
+    }
+
+    #naslovTriSlike{
+        padding-top: 50px;
+        height: 70px;
+    }
+
+    #naslovTriSlike h1{
+        font-size: 25px;
+    }
+
+    .slikeTri{
+        width: 45%;
+    }
+
+
+    /*STRANICA MEN*/
+
+    .stavka-kontent{
+
+        height: 700px;
+        width: 48%;
+    
+      }
+
+      .katalogStvar h2{
+        font-size: 18px;
+      }
+
+
+      /*STRANICA SA FORMOM*/
+
+    #formaZaRegistraciju{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+    /*STRANICA AUTOR*/
+
+    #autorInfo{
+
+        width: 80%;
+    }
+
+
+}
+
+
+@media only screen and (max-width:769px){
+
+    nav,#nav2{
+        display: none;
+    }
+
+    #navig{
+        grid-template-columns: 20px 70px 20px 1fr 20px 70px 20px;
+        grid-template-rows: 10px 1fr 10px;
+    }
+
+    #ikonica{
+
+        grid-area:2/2/3/3;
+    }
+
+    #burger{
+        display: block;
+        grid-area:2/6/3/7;
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+ 
+
+    .fa-bars{
+        font-size: 40px;
+        color: #0E0E10;
+       
+    }
+
+    #dveSlike{
+        background-image:url("../slike/bg4.jpg") ;
+    }
+
+
+    /*STRANICA MEN*/
+
+   
+      .katalogStvar h2{
+        font-size: 17px;
+      }
+
+      .katalogSale p{
+        font-size: 16px;
+
+      }
+
+      .katalogSale h2{
+            font-size: 18px;
+      }
+
+}
+
+@media only screen and (max-width:601px){
+
+    main{
+        height: 2250px;
+    }
+
+    #slajder{
+    
+        grid-template-columns: 1fr;
+        height: 500px;
+    
+    }
+
+    #slajderSlika{
+        grid-area: 1/1/6/2;
+        grid-template-rows: 50% 20% 13% 10% 7%;
+    }
+
+    #tekstSlajd p{
+        font-size: 16px;
+    }
+
+    #triSlike h2{
+        font-size: 18px;
+    }
+
+    #triSlike p{
+        font-size: 16px;
+    }
+
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    footer h3{
+        font-size: 18px;
+    }
+
+    #contact p{
+        font-size: 16px;
+    }
+
+    #footerAplikacije ul li a{
+        font-size: 16px;
+    }
+
+    #footerNav ul li a{
+        font-size: 16px;
+    }
+
+    footer{
+        height: 260px;
+    }
+
+
+    /*STRANICA MEN*/
+
+    #slikaMen{
+        height: 400px;
+    }
+
+    #katalogStvari,#katalogStvari2{
+        flex-wrap: wrap;
+        height: 5200px;
+    
+    }
+    
+    .katalogStvar{
+        width: 90%;
+        height: 11%;
+    }
+
+    .katalogStvar h2{
+        font-size: 20px;
+    }
+
+    .stavka-kontent{
+
+        height: 600px;
+        width: 75%;
+    
+      }
+
+
+      /*STRANICA SALE*/
+
+    #slikaSale{
+        height: 400px;
+    }
+
+      #katalogSale_id{
+        height: 8000px;
+    }
+
+    .katalogSale{
+        width: 80%;
+        height: 7.5%;
+    }
+
+
+    /*STRANICA AUTOR*/
+
+    #autorInfo{
+
+        width: 90%;
+        grid-template-rows: 85% 15%;
+    }
+
+    
+
+}
+
+
+@media only screen and (max-width:481px){
+
+    main{
+        height: 3400px;
+    }
+
+    #dveSlike{
+        height: 400px;
+        padding-top: 220px;
+    }
+
+    #manWoman{
+       
+        height: 1300px;
+        flex-wrap: wrap;
+    }
+    
+    .mW{
+        width: 90%;
+        height: 45%;
+    }
+
+    .mW-tekst h1{
+        font-size: 25px;
+    }
+
+    .mW-tekst h2{
+        font-size: 26px;
+    }
+
+    .mW-tekst p{
+        font-size: 20px;
+    }
+
+    #triSlike{
+        height: 1000px;
+        flex-wrap: wrap;
+    }
+
+    .slikeTri{
+        width: 90%;
+        height: 48%;
+    }
+
+    footer{
+        height: 780px;
+        flex-wrap: wrap;
+    }
+
+    #footerAplikacije , #footerInfo , #footerNav{
+    
+        width: 95%;
+        height: 32%;
+        
+    }
+
+    footer h2,footer h3{
+        font-size: 22px;
+        letter-spacing: 2.5px;
+    }
+
+   
+
+    #contact p, #footerAplikacije ul li a, #footerNav ul li a{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+
+      /*STRANICA SA FORMOM*/
+
+      #formaZaRegistraciju{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+    /*STRANICA AUTOR*/
+
+    #autorInfo{
+
+        width: 100%;
+        grid-template-rows: 85% 15%;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:415px){
+
+    .mW{
+        width: 100%;
+        height: 45%;
+    }
+
+    
+    #footerAplikacije , #footerInfo , #footerNav{
+    
+        width: 100%;
+        height: 32%;
+        
+    }
+
+
+
+     /*STRANICA MEN*/
+
+     .katalogStvar{
+        width: 95%;
+        height: 12%;
+    }
+
+
+    /*STRANICA SALE*/
+
+    .katalogSale{
+        width: 92%;
+        
+    }
+
+}
+
+@media only screen and (max-width:361px){
+
+    #popustiZag{
+        display: none;
+    }
+
+
+    
+    /*STRANICA AUTOR*/
+
+    #auSlika{
+        grid-area:1/2/2/3;
+    }
+
+    #auSlika img{
+        width: 100%;
+        height: 100%;
+    }
+}

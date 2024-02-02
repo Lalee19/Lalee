@@ -344,9 +344,8 @@ function dinamickoIsAplikacija(){
 
 
 const footernav = [
-    {ime:'MEN',putanja:'#'},
     {ime:'WOMEN',putanja:'../../index.html'},
-    {ime:'SALE',putanja:'sales.html'},
+    {ime:'SALE',putanja:'sale.html'},
     {ime:'Account',putanja:'registration.html'},
     {ime:'Author',putanja:'autor.html'},
     {ime:"Sitemap",putanja:"../../sitemap.xml"},

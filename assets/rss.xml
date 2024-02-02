@@ -1,0 +1,30 @@
+<rss version="2.0">
+    <channel>
+        <title>Fred Perry</title>
+        <link>https://lalee19.github.io/index.html</link>
+        <description>Site of modern clothes and shoes</description>
+        <language>en-us</language>
+        <lastBuildDate>2024-02-02</lastBuildDate>
+        <category>Fashion</category>
+            <item>
+                <title>Fred Perry - Home</title>
+                <description>Home page Fred Perry.</description>
+                <link>https://lalee19.github.io/index.html</link>
+            </item>
+            <item>
+                <title>Fred Perry - Men page</title>
+                <description>Page with men clothes.</description>
+                <link>https://lalee19.github.io/assets/stranice/men.html<link>
+            </item>
+            <item>
+                <title>Fred Perry - Sale page</title>
+                <description>Page with things that are on sale.</description>
+                <link>https://lalee19.github.io/assets/stranice/sale.html</link>
+            </item>
+            <item>
+                <title>Fred Perry - Page for registration</title>
+                <description>Page with registration form for Fred Perry site.</description>
+                <link>https://lalee19.github.io/assets/stranice/registration.html</link>
+            </item>
+    </channel>
+</rss>
